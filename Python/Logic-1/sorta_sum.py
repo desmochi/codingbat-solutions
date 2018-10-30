@@ -8,5 +8,7 @@ sorta_sum(10, 11) → 21
 
 
 def sorta_sum(a, b):
-    total = a + b
-    return 20 if 10 <= total <= 19 else total
+  if (a+b >= 10 and a+b <= 19):
+    return 20
+  else:
+    return a+b
